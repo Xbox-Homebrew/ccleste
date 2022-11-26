@@ -13,3 +13,6 @@ em-build/
 ccleste-win.zip
 ccleste-input-cfg.txt
 ccleste-start-fullscreen.txt
+/.vs
+/uwp/CelesteClassic-UWP/.vs/CelesteClassic-UWP
+/uwp/CelesteClassic-UWP/x64
