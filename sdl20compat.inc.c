@@ -1,4 +1,5 @@
 #include<assert.h>
+#include<SDL.h>
 
 //dummy values
 enum {

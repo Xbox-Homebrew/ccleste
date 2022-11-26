@@ -273,6 +273,7 @@ static Uint8 *n3ds_get_fake_key_state(int *numkeys) {
 
 int main(int argc, char** argv) {
 	SDL_CHECK(SDL_Init(SDL_INIT_AUDIO | SDL_INIT_VIDEO) == 0);
+	SDL_SetHint(SDL_HINT_WINRT_HANDLE_BACK_BUTTON, "1");
 #if SDL_MAJOR_VERSION >= 2
 	SDL_InitSubSystem(SDL_INIT_GAMECONTROLLER);
 	SDL_GameControllerAddMappingsFromRW(SDL_RWFromFile("gamecontrollerdb.txt", "rb"), 1);
